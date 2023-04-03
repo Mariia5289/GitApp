@@ -10,6 +10,13 @@ namespace пр3
     {
         static void Main(string[] args)
         {
+            string s = Console.ReadLine();
+            double x = double.Parse(s);
+            double F = 5 *Math.Sin(x) - 7 * Math.Cos(x);
+            Console.WriteLine(x + " " +F);
+            Console.ReadKey();//конец кода
+
+            return;
         }
     }
 }
